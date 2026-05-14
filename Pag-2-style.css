@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: #eef3f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 420px;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.12);
+}
+
+.cabecalho {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.cabecalho h1 {
+    color: #1f4e79;
+    font-size: 26px;
+    margin-bottom: 8px;
+}
+
+.cabecalho p {
+    color: #666;
+    font-size: 14px;
+}
+
+.resultado {
+    padding: 15px;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+
+.aprovado {
+    background: #e7f6ec;
+    color: #1f8f4d;
+    border: 1px solid #9ed8b3;
+}
+
+.reprovado {
+    background: #fdecea;
+    color: #c0392b;
+    border: 1px solid #f3aaa2;
+}
+
+.informacoes {
+    background: #f5f8fb;
+    border: 1px solid #d7e1ea;
+    border-radius: 6px;
+    padding: 15px;
+    margin-bottom: 18px;
+}
+
+.informacoes p {
+    color: #333;
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+
+.informacoes p:last-child {
+    margin-bottom: 0;
+}
+
+.botao-voltar {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 13px;
+    background: #1f4e79;
+    color: #ffffff;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.botao-voltar:hover {
+    background: #163a5c;
+}
+
+.rodape {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 12px;
+    color: #777;
+}

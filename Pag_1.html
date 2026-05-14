@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Escolar</title>
+
+    <link rel="stylesheet" href="Pag-1-style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="cabecalho">
+            <h1>Sistema Escolar</h1>
+            <p>Verificação de nota e presença do aluno</p>
+        </div>
+
+        <form method="post" action="Pag_2.php">
+            <div class="campo">
+                <label for="nota">Nota do aluno</label>
+                <input type="text" id="nota" name="nota" placeholder="Digite a nota">
+            </div>
+
+            <div class="campo">
+                <label for="presenca">Presença do aluno</label>
+                <input type="text" id="presenca" name="presenca" placeholder="Digite a presença">
+            </div>
+
+            <button type="submit">Verificar Situação</button>
+        </form>
+
+        <div class="rodape">
+        </div>
+    </div>
+
+</body>
+</html>
